@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Home">
+  <scrollpane id="1c172">
+    <constraints>
+      <xy x="20" y="20" width="1260" height="1095"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="jpHome" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="f2e7a" binding="jpTopo" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="c711c" class="javax.swing.JMenuBar" binding="jmBar" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="1468a" class="javax.swing.JMenu" binding="jmCadastro" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="Img/icons8-cadastro.png"/>
+                      <text value="Cadastro"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="7c62c" class="javax.swing.JMenuItem" binding="jmiHospedes">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Hospede"/>
+                        </properties>
+                      </component>
+                      <component id="2aed4" class="javax.swing.JMenuItem" binding="jmiCTQuartos">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Quarto"/>
+                        </properties>
+                      </component>
+                      <component id="d9844" class="javax.swing.JMenuItem" binding="jmiProdutos">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Produto"/>
+                        </properties>
+                      </component>
+                      <component id="4a8de" class="javax.swing.JMenuItem" binding="jmiFornecedores">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Fornecedor"/>
+                        </properties>
+                      </component>
+                      <component id="1790d" class="javax.swing.JMenuItem" binding="jmiFuncionarios">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Funcionario"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="2ad47" class="javax.swing.JMenu" binding="jmReservas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="Img/icons8-reserva-50.png"/>
+                      <text value="Reservas"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="6421c" class="javax.swing.JMenuItem" binding="jmiRsQuartos">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Quartos"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="17c58" class="javax.swing.JMenu" binding="jmRelatorios" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="Img/icons8-relatório-50.png"/>
+                      <text value="Relatorios"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="c90ed" class="javax.swing.JMenuItem" binding="jmiRelatorios">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <text value="Relatorios"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="751c7" class="javax.swing.JMenu" binding="jmSair" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="Img/icons8-sair-50.png"/>
+                      <text value="Sair"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="b6521" class="javax.swing.JMenuItem" binding="jmiSair">
+                        <constraints/>
+                        <properties>
+                          <enabled value="true"/>
+                          <font size="20"/>
+                          <hideActionText value="false"/>
+                          <horizontalTextPosition value="11"/>
+                          <selected value="false"/>
+                          <text value="Sair"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="68b2c" binding="jpRodape" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="7140" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="7d4a5" class="javax.swing.JMenu" binding="jmconfig" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <hideActionText value="true"/>
+                      <icon value="Img/icons8-configuração-50.png"/>
+                      <text value="Configurações"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="80593" class="javax.swing.JMenuItem" binding="jmiCdUser">
+                        <constraints/>
+                        <properties>
+                          <font size="16"/>
+                          <hideActionText value="false"/>
+                          <text value="Cadastrar Usuário"/>
+                          <toolTipText value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <hspacer id="8d7f6">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <component id="1802a" class="javax.swing.JLabel" binding="jlImgfundo">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <icon value="Img/background_-1200x800_sem-fundo.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+</form>
